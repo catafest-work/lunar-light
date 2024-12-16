@@ -196,6 +196,29 @@ export default defineConfig({
 })
 
 ```
+ - Run the project with:
+```
+npm run dev
+
+> lunar-light@0.0.1 dev
+> astro dev
+
+15:20:17 [types] Generated 1ms
+
+ astro  v5.0.5 ready in 193 ms
+
+┃ Local    http://localhost:4321/
+┃ Network  use --host to expose
+
+15:20:17 [content] Syncing content
+15:20:17 [content] Synced content
+15:20:17 watching for file changes...
+15:20:22 [200] / 27ms
+```
+ - The result is this:
+   
+![alt astro_minimal_project](minimal_astro_001.png)
+
  - The cypress file can be tested on cypress browser with: 
  
  ```
