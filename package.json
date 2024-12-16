@@ -10,5 +10,8 @@
   },
   "dependencies": {
     "astro": "^5.0.5"
+  },
+  "devDependencies": {
+    "cypress": "^13.16.1"
   }
 }
