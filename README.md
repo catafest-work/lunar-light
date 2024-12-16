@@ -183,6 +183,11 @@ found 0 vulnerabilities
 ```
 
  - I removed the basic scripts and I create a new spec.cy.js file into e2e folder with my source code;
+ - I remove the cypress.config.ts file :
+
+   ```
+   lunar-light>del cypress.config.ts
+   ```
  - I created a new cypress.config.js file into main project folder with this source code:
  
  ```
